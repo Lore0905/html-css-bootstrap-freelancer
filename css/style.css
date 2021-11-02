@@ -1,6 +1,6 @@
 
 /* HEADER  */
-.container-fluid{
+header{
     background-color: #2c3e51;
 }
 /* HEADER MEDIA-QUERY */
@@ -11,3 +11,13 @@
     }
 }
 /* END HEADER */
+
+/* MAIN */
+.user{
+    background-color: #1abc9c;
+}
+.user-img{
+    width: 300px;
+}
+/* MAIN MEDIA-QUERY */
+/* END MAIN */
