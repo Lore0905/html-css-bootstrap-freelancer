@@ -94,6 +94,18 @@ main section{
 }
 /* end about */
 
+/* contatact me */
+.form-control{
+    border: 0px;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0px;
+}
+.mb-3{
+    margin: 0rem;
+}
+
+/* end contact me */
+
 /* MAIN MEDIA-QUERY */
 /* END MAIN */
 

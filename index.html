@@ -153,30 +153,26 @@
                     <h2>CONTACT ME</h2>
                 </div>
 
-                <div class="row flex-column">
+                <form>
+                    <div class="mb-3">
+                      <label for="name" class="form-label"></label>
+                      <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="pw" class="form-label"></label>
+                      <input type="password" class="form-control" id="pw" placeholder="Password">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label"></label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mex" class="form-label"></label>
+                        <textarea class="form-control" id="mex" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
 
-                    <div class="col-sm-12">
-                        <div>Name</div>
-                        <hr>
-                    </div>
-                    <div class="col-sm-12">
-                        <div>Email address</div>
-                        <hr>
-                    </div>
-                    <div class="col-sm-12">
-                        <div>Phone number</div>
-                        <hr>
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="pb-5">message</div>
-                        <hr>
-                    </div>
-                    <!-- button send -->
-                    <div>
-                        send
-                    </div>
-                    
-                </div>
             </div>
         </section>
     </main>
