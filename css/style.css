@@ -52,6 +52,9 @@ main section{
 .user{
     color: white;
 }
+.user h1 {
+    font-size: 50px;
+}
 /* star */
 .star{
     width: 100%;
@@ -118,7 +121,7 @@ textarea:focus {
     box-shadow: none;
 }
 .text_area{
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 /* end contact me */
 
